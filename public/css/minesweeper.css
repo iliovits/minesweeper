@@ -1,0 +1,75 @@
+.hex {
+    float: left;
+    margin-left: 1.5px;
+    margin-bottom: -13px;
+}
+.hex .top {
+    width: 0;
+    border-bottom: 15px solid rgb(101, 0, 184);
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+}
+.hex .middle {
+    width: 52px;
+    height: 30px;
+    background: rgb(101, 0, 184);
+    text-align: center;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 15px solid rgb(101, 0, 184);
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 26.5px;
+}
+.board {
+    margin: 0 auto;
+    width:700px;
+}
+.hex:hover
+.top {
+    width: 0;
+    border-bottom: 15px solid rgb(111, 73, 216);
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+}
+.hex:hover
+.middle {
+    width: 52px;
+    height: 30px;
+    background: rgb(111, 73, 216);
+    text-align: center;
+}
+.hex:hover
+.bottom {
+    width: 0;
+    border-top: 15px solid rgb(111, 73, 216);
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+}
+
+.reveal-top {
+    width: 0;
+    border-bottom: 15px solid rgb(138, 110, 214);
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+}
+
+.reveal-mid {
+    width: 52px;
+    height: 30px;
+    background: rgb(138, 110, 214);
+    text-align: center;
+}
+
+.reveal-bottom {
+    width: 0;
+    border-top: 15px solid rgb(138, 110, 214);
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+}
